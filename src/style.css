@@ -1,1 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: blue;
+}
+.cardMain {
+  display: flex;
+  background-color: white;
+  position: relative;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+.first-spade {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 35px;
+}
+
+.mid {
+  font-size: 60px;
+  margin: auto;
+}
+
+.second-spade {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 35px;
+  transform: rotate(180deg);
+}
+
+.hearts {
+  color: red;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 35px;
+}
+
+button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: none;
+  border-radius: 10px;
+  background-color: #00d2fc;
+}
